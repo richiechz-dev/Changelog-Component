@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Global Styles */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Changelog */
+
+.changelog {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #000;
+}
+
+.timeline {
+  margin: 0 auto;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.timeline-date {
+  color: #bbb;
+  font-size: 14px;
+  flex: 1;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.timeline-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #333;
+  border-radius: 50%;
+  margin-right: 20px;
+  position: relative;
+}
+
+.timeline-content {
+  flex: 2;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+}
+
+/* boton */
+
+footer {
+    margin-top: 3rem;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .visit-button {
+    background-color: #333;
+    padding: 12px 25px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .visit-button:hover {
+    background-color: #555;
+  }
