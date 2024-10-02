@@ -78,13 +78,17 @@ a {
   content: "";
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 50%;  
   transform: translate(-50%, -50%);
   width: 2px;
   height: 5rem;
   background-color: black;
 }
 
+.timeline-dot:hover {
+  background-color: #555;
+  transform: scale(1.5); 
+}
 .timeline-dot::after {
   content: "";
   position: absolute;
@@ -95,11 +99,8 @@ a {
   height: 5rem;
   background-color: black;
 }
-.timeline-dot:hover {
-  background-color: #555;
-  transform: scale(1.5); 
-  z-index: 2;
-}
+
+
 
 .timeline-content {
   flex: 2;
