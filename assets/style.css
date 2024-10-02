@@ -25,6 +25,14 @@ a {
 
 /* Changelog */
 
+.header-changelog {
+  margin-bottom: 1.5rem;
+}
+
+.header-changelog h1 {
+  margin-bottom: 1.2rem;
+}
+
 .changelog {
   background-color: #fff;
   border-radius: 15px;
@@ -75,23 +83,23 @@ a {
 /* boton */
 
 footer {
-    margin-top: 3rem;
-  }
-  
-  button a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .visit-button {
-    background-color: #333;
-    padding: 12px 25px;
-    font-size: 14px;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .visit-button:hover {
-    background-color: #555;
-  }
+  margin-top: 3rem;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-visit {
+  background-color: #222222;
+  padding: 12px 25px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-visit:hover {
+  background-color: #555;
+}
